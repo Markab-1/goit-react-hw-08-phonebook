@@ -1,0 +1,67 @@
+.navContainer {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 10px;
+  font-weight: 500;
+  border-bottom: solid rgb(65, 4, 100) 2px;
+}
+
+.navList {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.navItem:not(:last-child) {
+  margin-right: 20px;
+}
+
+.titleHomeView {
+  padding: 100px 0;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.inputContainer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+
+  border: solid blue 1px;
+  border-radius: 5px;
+
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+
+.input {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  width: 100px;
+  padding: 5px 10px;
+}
+
+.formContainer {
+  padding: 30px 0;
+}
+
+.textRegiserForm {
+  text-align: left;
+}
+
+.navButton {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(105, 105, 105);
+  border: solid rgb(209, 209, 209) 0.5px;
+  border-radius: 5px;
+}
